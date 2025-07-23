@@ -33,6 +33,11 @@
   display: flex;
 }
 
+/* primary color */
+.color-primary {
+  color: #e95a08;
+}
+
 /* Header */
 .header-container {
   margin-top: 30px;
@@ -69,6 +74,35 @@
 
 .navbar-content p i {
   margin-right: 10px;
+}
+
+/* Banner Section */
+.banner-container {
+  margin-top: 120px;
+}
+
+.banner-content {
+  justify-content: space-between;
+  align-items: end;
+}
+
+.banner-content1 {
+  margin-top: 162px;
+}
+.banner-content2 {
+  margin-top: 100px;
+}
+
+.banner-content1 p {
+  font-size: 65px;
+  font-weight: bold;
+}
+
+.banner-content1 #banner-content1-p1 {
+  font-size: 22px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 13px;
 }
 
 /* Media Query */
