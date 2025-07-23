@@ -105,6 +105,68 @@
   margin-top: 13px;
 }
 
+/* Plant Section */
+.plant-container {
+  margin-top: 120px;
+}
+.plant-content1 {
+  text-align: center;
+}
+.plant-content1 h3 {
+  font-size: 50px;
+  font-weight: bold;
+}
+.plant-content1 p {
+  font-size: 22px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+  max-width: 888px;
+  margin: 16px 126px 0px 126px;
+}
+.plant-content2 {
+  margin-top: 49px;
+}
+.plant-content2-card {
+  max-width: 270px;
+}
+.plant-content2-card-content {
+  text-align: center;
+  margin-top: 30px;
+}
+.plant-content2-card-content .plant-content2-card-content1 h3 {
+  font-size: 22px;
+  font-weight: 500;
+  color: #111111;
+}
+.plant-content2-card-content .plant-content2-card-content1 p {
+  font-size: 22px;
+  font-weight: bold;
+  color: #111111;
+  margin-top: 20px;
+}
+
+.plant-content2-card-banner {
+  margin-top: 30px;
+}
+
+.plant-content2-card-content .plant-content2-card-banner button {
+  background-color: #e95a08;
+  color: #ffffff;
+  width: 270px;
+  font-size: 16px;
+  font-weight: 600px;
+  padding: 19px 70px;
+  border: none;
+}
+
+.plant-content2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
 /* Media Query */
 /* Medium Device */
 @media screen and (min-width: 576px) and (max-width: 992px) {
