@@ -70,3 +70,19 @@
 .navbar-content p i {
   margin-right: 10px;
 }
+
+/* Media Query */
+/* Medium Device */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+}
+/* Small Device */
+@media screen and (max-width: 576px) {
+  .header-container {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  /* Navbar */
+  .navbar-content ul {
+    display: none;
+  }
+}
