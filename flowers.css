@@ -38,6 +38,13 @@
   color: #e95a08;
 }
 
+/* Animation */
+@keyframes trusted-plant-lover-bridge-animation {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 /* Header */
 .header-container {
   margin-top: 30px;
@@ -218,10 +225,13 @@
   left: 350px;
   z-index: 1;
 }
+
+/* Image Animation */
 .trusted-plant-lover-bridge img {
   width: 286px;
   height: 286px;
   top: 300px;
+  animation: trusted-plant-lover-bridge-animation 7s ease-out infinite;
 }
 
 /* Media Query */
