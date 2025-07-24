@@ -170,7 +170,6 @@
 /* Plants Lover Section */
 .plants-lover-container {
   margin-top: 210px;
-  border: 2px solid green;
 }
 
 .plants-lover-content {
@@ -179,26 +178,26 @@
   gap: 60px;
 }
 
-.plants-lover-image {
-  border: 2px solid green;
-}
 .plants-lover-image img {
-  /* border: 2px solid red; */
   display: block;
 }
 
 .plants-lover-text {
-  border: 2px solid red;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 540px;
+  height: 521px;
 }
 
 .plants-lover-text h3 {
+  /* font-size: 40px; */
   font-size: 52px;
   font-weight: bold;
   color: #000000;
 }
 
 .plants-lover-text ul li {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 400;
   margin-top: 20px;
   margin-left: 30px;
@@ -265,6 +264,29 @@
     width: 171px;
     padding: 19px 30px 19px 30px;
   }
+
+  /* Plant Section */
+  .plants-lover-container {
+    margin-top: 41px;
+  }
+  .plants-lover-content {
+    flex-direction: column;
+  }
+  .plants-lover-image img {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+  }
+  .plants-lover-text {
+    width: 100%;
+    height: auto;
+  }
+  .plants-lover-text h3 {
+    font-size: 37px;
+  }
+  .plants-lover-text ul li {
+    font-size: 18px;
+  }
 }
 
 /* Small Device */
@@ -324,7 +346,6 @@
   }
   .plant-content2-card-image {
     width: 171px;
-    height: auto;
   }
   .plant-container .plant-content1 .h3 {
     font-size: 24px;
@@ -336,5 +357,29 @@
   .plant-content2-card-content .plant-content2-card-banner button {
     width: 171px;
     padding: 19px 30px 19px 30px;
+  }
+
+  /* Plant Section */
+  .plants-lover-container {
+    margin-top: 41px;
+  }
+  .plants-lover-content {
+    flex-direction: column;
+  }
+  .plants-lover-image img {
+    width: 100%;
+    height: auto;
+  }
+  .plants-lover-text {
+    width: 100%;
+    height: auto;
+    margin-top: -18px;
+    margin-bottom: 0;
+  }
+  .plants-lover-text h3 {
+    font-size: 24px;
+  }
+  .plants-lover-text ul li {
+    font-size: 14px;
   }
 }
