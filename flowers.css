@@ -167,6 +167,44 @@
   gap: 20px;
 }
 
+/* Plants Lover Section */
+.plants-lover-container {
+  margin-top: 210px;
+  border: 2px solid green;
+}
+
+.plants-lover-content {
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+
+.plants-lover-image {
+  border: 2px solid green;
+}
+.plants-lover-image img {
+  /* border: 2px solid red; */
+  display: block;
+}
+
+.plants-lover-text {
+  border: 2px solid red;
+}
+
+.plants-lover-text h3 {
+  font-size: 52px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.plants-lover-text ul li {
+  font-size: 25px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-left: 30px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
 /* Media Query */
 /* Medium Device */
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -211,13 +249,14 @@
     justify-content: space-between;
     align-items: center;
     gap: 20px;
+    place-items: center;
   }
   .plant-content2-card-image {
     width: 171px;
     height: auto;
   }
-  .plant-content1 h3 {
-    font-size: 16px;
+  .plant-container .plant-content1 .h3 {
+    font-size: 37px;
   }
   .plant-content1 p {
     font-size: 16px;
@@ -281,14 +320,16 @@
     justify-content: space-between;
     align-items: center;
     gap: 20px;
+    place-items: center;
   }
   .plant-content2-card-image {
     width: 171px;
     height: auto;
   }
-  .plant-content1 h3 {
-    font-size: 16px;
+  .plant-container .plant-content1 .h3 {
+    font-size: 24px;
   }
+
   .plant-content1 p {
     font-size: 16px;
   }
