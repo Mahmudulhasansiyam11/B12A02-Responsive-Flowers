@@ -204,6 +204,26 @@
   color: rgba(0, 0, 0, 0.5);
 }
 
+/* Trusted Plant Lover Badge */
+.plants-lover-image {
+  position: relative;
+  z-index: 0.5;
+}
+.trusted-plant-lover-bridge {
+  width: 0px;
+  height: 0px;
+  border: 2px solid red;
+  position: absolute;
+  top: -130px;
+  left: 350px;
+  z-index: 1;
+}
+.trusted-plant-lover-bridge img {
+  width: 286px;
+  height: 286px;
+  top: 300px;
+}
+
 /* Media Query */
 /* Medium Device */
 @media screen and (min-width: 576px) and (max-width: 992px) {
