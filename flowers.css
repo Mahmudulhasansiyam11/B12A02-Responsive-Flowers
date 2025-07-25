@@ -234,6 +234,11 @@ body {
   z-index: 1;
 }
 
+/* Border Shadow trusted lover bridge */
+.trusted-plant-lover-badge {
+  box-shadow: -4px 10px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
 /* Image Animation */
 .trusted-plant-lover-bridge img {
   width: 286px;
