@@ -401,6 +401,8 @@ body {
 /* Footer */
 .footer-container {
   margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   justify-content: space-between;
   gap: 110.67px;
 }
@@ -676,6 +678,15 @@ body {
     width: 280px;
     height: 50px;
   }
+
+  /* footer */
+  .footer-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 50px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
 }
 
 /* Small Device */
@@ -902,5 +913,17 @@ body {
     border: none;
     width: 321px;
     height: 50px;
+  }
+
+  /* footer */
+  footer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .footer-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
   }
 }
