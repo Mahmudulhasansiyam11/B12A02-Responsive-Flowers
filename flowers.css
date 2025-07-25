@@ -262,6 +262,7 @@
   justify-content: space-between;
   gap: 28px;
   color: #ffffff;
+  margin-bottom: 120px;
 }
 .latest-deal-image-content1-image1 {
   background: linear-gradient(rgba(0, 0, 0, 0.4)), url(./assets/deal-bloom.png);
@@ -340,62 +341,56 @@
 
 /* Join Section */
 .join-container {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(7, 51, 79, 0.4)),
-    url(./assets/news-letter-bg.png);
-  margin-top: 120px;
-  height: 533px;
   padding-top: 199px;
-  padding-left: 305px;
-  padding-right: 305px;
   padding-bottom: 193px;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(
+      rgba(7, 51, 79, 0.4),
+      rgba(0, 0, 0, 0.5),
+      rgba(7, 51, 79, 0.4)
+    ),
+    url(./assets/news-letter-bg.png);
+  background-repeat: no-repeat;
+  background-size: 1440px 533px;
 }
 
 .join-content {
   width: 830px;
   height: 141px;
-}
-
-.join-content {
   text-align: center;
 }
 
-.join-content1 h3 {
-  color: #ffffff;
+.join-content h3 {
   font-size: 50px;
   font-weight: bold;
+  color: #ffffff;
 }
 
 .join-content2 {
-  justify-content: space-between;
-  align-items: center;
-  gap: 0px;
   margin-top: 23px;
 }
 
 .join-content2 input[type="email"] {
   width: 644px;
-  height: 50px;
   padding-left: 20px;
-  padding-top: 15.5px;
-  padding-right: 540px;
-  padding-bottom: 15.5px;
+  padding-top: 8px;
+  padding-right: 538px;
+  padding-bottom: 8px;
 }
-
 .join-content2 input::placeholder {
-  font-size: 15px;
-  font-family: "Noto Serif", serif;
-  font-weight: 400;
+  font-size: 16px;
+  font-weight: 400px;
+  font-family: "Inter", sans-serif;
 }
-
 .join-content2 button {
   background-color: #e95a08;
+  color: #ffffff;
   border: none;
   width: 186px;
   height: 50px;
-  color: #ffffff;
-  font-size: 15px;
-  font-family: "Noto Serif", serif;
-  font-weight: 600;
 }
 
 /* Media Query */
@@ -535,6 +530,60 @@
     padding: 19px 90px;
     margin-left: 1px;
   }
+
+  /* Join Section */
+  .join-container {
+    padding-top: 159px;
+    padding-bottom: 143px;
+    max-width: 992px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(
+        rgba(7, 51, 79, 0.4),
+        rgba(0, 0, 0, 0.5),
+        rgba(7, 51, 79, 0.4)
+      ),
+      url(./assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-size: 992px 433px;
+  }
+
+  .join-content {
+    width: 630px;
+    height: 110px;
+    text-align: center;
+  }
+
+  .join-content h3 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+
+  .join-content2 {
+    margin-top: 10px;
+  }
+
+  .join-content2 input[type="email"] {
+    width: 410px;
+    padding-left: 20px;
+    padding-top: 8px;
+    padding-right: 300px;
+    padding-bottom: 8px;
+  }
+  .join-content2 input::placeholder {
+    font-size: 16px;
+    font-weight: 400px;
+    font-family: "Inter", sans-serif;
+  }
+  .join-content2 button {
+    background-color: #e95a08;
+    color: #ffffff;
+    border: none;
+    width: 280px;
+    height: 50px;
+  }
 }
 
 /* Small Device */
@@ -654,6 +703,7 @@
     margin-top: 50px;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 40px;
   }
   .latest-deal-image-content2-content1 {
     font-size: 20px;
@@ -683,5 +733,59 @@
     text-align: center;
     padding: 19px 90px;
     margin-left: 1px;
+  }
+
+  /* Join Section */
+  .join-container {
+    padding-top: 110px;
+    padding-bottom: 64px;
+    max-width: 576px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(
+        rgba(7, 51, 79, 0.4),
+        rgba(0, 0, 0, 0.5),
+        rgba(7, 51, 79, 0.4)
+      ),
+      url(./assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-size: 576px 275px;
+  }
+
+  .join-content {
+    width: 321px;
+    height: 100px;
+    text-align: center;
+  }
+
+  .join-content h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+
+  .join-content2 {
+    margin-top: 23px;
+  }
+
+  .join-content2 input[type="email"] {
+    width: 218px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-right: 112px;
+    padding-bottom: 15px;
+  }
+  .join-content2 input::placeholder {
+    font-size: 16px;
+    font-weight: 400px;
+    font-family: "Inter", sans-serif;
+  }
+  .join-content2 button {
+    background-color: #e95a08;
+    color: #ffffff;
+    border: none;
+    width: 321px;
+    height: 50px;
   }
 }
